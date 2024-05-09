@@ -1,10 +1,14 @@
-#The Find command cheat sheet
+# The Find command cheat sheet
 
 1. Basic find command
+```bash 
   # find -name "TestFile"
+```
 
 2. Find Files Using Name and Ignoring Case
+```bash 
   # find -iname "TestFile"
+```
 
 3. Limit Search To Specific Directory Level Using mindepth and maxdepth
   # find / -maxdepth 3 -name passwd
